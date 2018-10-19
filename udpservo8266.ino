@@ -13,7 +13,7 @@ const char* password = "xxx";
 WiFiUDP UDPTestServer;
 unsigned int UDPPort = 2807;
 
-const int packetSize = 2;
+const int packetSize = 2;   // turns out on my module this is pin 4
 byte packetBuffer[packetSize];
 Servo myservo;  // create servo object to control a servo
 
